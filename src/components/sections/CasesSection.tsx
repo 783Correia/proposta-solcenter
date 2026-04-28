@@ -52,11 +52,11 @@ const CasesSection = () => {
 
         <div className={`fade-up mt-10 rounded-2xl border border-primary/20 bg-primary/[0.03] p-8 text-center ${isVisible ? "visible" : ""}`}>
           <p className="text-sm text-muted-foreground mb-2">
-            <span className="font-semibold text-foreground">Yuri Correia</span> — gestor de tráfego e estrategista digital
+            <span className="font-semibold text-foreground">Yuri Correia</span> — estrategista digital
           </p>
           <p className="text-sm text-muted-foreground max-w-xl mx-auto leading-relaxed">
-            Atendo empresas que querem estrutura digital que funciona — site, tráfego pago, conteúdo e rastreamento integrados.
-            Cada projeto tem número de resultado. Cada real investido tem destino rastreável.
+            Construo a estrutura digital completa para empresas que querem crescer — site, tráfego, conteúdo e rastreamento integrados em uma estratégia única.
+            Cada decisão tem dado por trás. Cada real investido tem destino rastreável.
           </p>
           <a
             href="https://ocorreia.com.br"
