@@ -1,20 +1,28 @@
 import { useState, useEffect } from "react";
 
-const TARGET_DATE = new Date('2026-05-12T10:00:00-03:00').getTime();
+const STORAGE_KEY = "solcenter_proposta_expiry";
+const DURATION_MS = 24 * 60 * 60 * 1000;
+
+const getExpiry = () => {
+  const stored = localStorage.getItem(STORAGE_KEY);
+  if (stored) return parseInt(stored, 10);
+  const expiry = Date.now() + DURATION_MS;
+  localStorage.setItem(STORAGE_KEY, String(expiry));
+  return expiry;
+};
 
 const CountdownBar = () => {
-  const [timeLeft, setTimeLeft] = useState(() => TARGET_DATE - Date.now());
+  const [timeLeft, setTimeLeft] = useState(() => getExpiry() - Date.now());
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setTimeLeft(TARGET_DATE - Date.now());
+      setTimeLeft(getExpiry() - Date.now());
     }, 1000);
     return () => clearInterval(interval);
   }, []);
 
   const expired = timeLeft <= 0;
-  const days    = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-  const hours   = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const hours   = Math.floor(timeLeft / (1000 * 60 * 60));
   const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
   const pad = (n: number) => String(n).padStart(2, "0");
@@ -28,7 +36,6 @@ const CountdownBar = () => {
           <>
             <span className="text-muted-foreground">Proposta válida por</span>
             <span className="font-mono font-bold text-primary">
-              {days}<span className="text-muted-foreground text-[0.65em] mx-0.5">d</span>{" "}
               {pad(hours)}<span className="text-muted-foreground text-[0.65em]">:</span>
               {pad(minutes)}<span className="text-muted-foreground text-[0.65em]">:</span>
               {pad(seconds)}
