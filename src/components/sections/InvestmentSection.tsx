@@ -3,14 +3,15 @@ import { Check, X } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 const included = [
-  "Sites + LPs (Energia, Pro e Mobilidade)",
+  "2 sites (Energia e Mobilidade)",
+  "3 LPs de conversão",
+  "Setup Instagram — 2 marcas",
   "Google Ads — Energia + Mobilidade B2B",
   "Meta Ads — Energia (remarketing + audiências)",
   "Conteúdo — 5 posts/semana (3 Energia + 2 Mobilidade)",
   "GA4 + Meta Pixel + rastreamento de conversão",
   "Relatório mensal com CPL por marca",
   "Google Meu Negócio otimizado",
-  "6 criativos de tráfego pago",
   "Handoff completo ao fim do contrato",
 ];
 
@@ -18,7 +19,7 @@ const comparisons = [
   { label: "Gestor de tráfego (só ads, sem sites nem conteúdo)", value: "R$2.000–2.500/mês", included: false },
   { label: "Social media (só posts, sem ads nem tracking)", value: "R$1.500–2.000/mês", included: false },
   { label: "Sites + LPs em agência", value: "R$8.000–20.000 avulso", included: false },
-  { label: "Tudo junto — duas marcas, estrutura completa", value: "R$2.800 setup + R$2.000/mês", included: true },
+  { label: "Tudo junto — duas marcas, estrutura completa", value: "R$16k entrada + R$3.600/mês", included: true },
 ];
 
 const InvestmentSection = () => {
@@ -33,10 +34,10 @@ const InvestmentSection = () => {
             Investimento
           </p>
           <h2 className="heading-display text-center text-3xl font-bold sm:text-4xl md:text-5xl text-foreground mb-4">
-            Setup + mensalidade.
+            Entrada + mensalidade.
           </h2>
           <p className="mx-auto max-w-xl text-center text-muted-foreground mb-16">
-            O setup cobre sites, LPs e toda a infraestrutura inicial. A mensalidade cobre a gestão contínua.
+            A entrada cobre tudo que é construído uma vez. A mensalidade cobre a gestão contínua das duas marcas.
           </p>
         </div>
 
@@ -54,21 +55,28 @@ const InvestmentSection = () => {
 
               <div className="mb-6 border-y border-border py-6 grid grid-cols-2 gap-4">
                 <div>
-                  <p className="text-xs text-muted-foreground mb-1">Setup inicial</p>
-                  <p className="heading-display text-2xl font-bold text-foreground">R$2.800</p>
-                  <p className="text-xs text-primary mt-0.5">sites + LPs + tracking</p>
+                  <p className="text-xs text-muted-foreground mb-1">Entrada</p>
+                  <p className="heading-display text-2xl font-bold text-foreground">R$16.000</p>
+                  <p className="text-xs text-primary mt-0.5">2 sites + 3 LPs + setup</p>
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground mb-1">Mensalidade</p>
-                  <p className="heading-display text-2xl font-bold text-foreground">R$2.000<span className="text-sm font-normal text-muted-foreground">/mês</span></p>
-                  <p className="text-xs text-primary mt-0.5">gestão contínua</p>
+                  <p className="heading-display text-2xl font-bold text-foreground">R$3.600<span className="text-sm font-normal text-muted-foreground">/mês</span></p>
+                  <p className="text-xs text-primary mt-0.5">tráfego + social media</p>
                 </div>
               </div>
 
-              <div className="mb-6 p-4 rounded-lg bg-background border border-border">
-                <p className="text-xs text-muted-foreground mb-1">Total 6 meses</p>
-                <p className="heading-display text-3xl font-bold text-foreground">R$14.800</p>
-                <p className="text-xs text-muted-foreground mt-1">Formas de pagamento a combinar</p>
+              <div className="mb-6 border-border grid grid-cols-2 gap-3">
+                <div className="p-4 rounded-lg bg-background border border-border">
+                  <p className="text-xs text-muted-foreground mb-1">Total 6 meses</p>
+                  <p className="heading-display text-2xl font-bold text-foreground">R$37.600</p>
+                  <p className="text-xs text-muted-foreground mt-0.5">parcelado</p>
+                </div>
+                <div className="p-4 rounded-lg bg-primary/[0.06] border border-primary/20">
+                  <p className="text-xs text-muted-foreground mb-1">À vista (−10%)</p>
+                  <p className="heading-display text-2xl font-bold text-primary">R$33.840</p>
+                  <p className="text-xs text-primary mt-0.5 font-medium">economia de R$3.760</p>
+                </div>
               </div>
 
               <ul className="flex-1 space-y-2.5">

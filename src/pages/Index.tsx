@@ -1,6 +1,7 @@
 import { useState } from "react";
 import HeroSection from "@/components/sections/HeroSection";
 import DiagnosisSection from "@/components/sections/DiagnosisSection";
+import CasesSection from "@/components/sections/CasesSection";
 import StrategySection from "@/components/sections/StrategySection";
 import DifferentiatorsSection from "@/components/sections/DifferentiatorsSection";
 import SKUsSection from "@/components/sections/SKUsSection";
@@ -23,6 +24,7 @@ const Index = () => {
       <CountdownBar />
       <HeroSection />
       <DiagnosisSection />
+      <CasesSection />
       <StrategySection />
       <DifferentiatorsSection />
       <SKUsSection />
