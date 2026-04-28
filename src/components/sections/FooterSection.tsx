@@ -3,28 +3,24 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 
 const faqs = [
   {
-    q: "O que acontece com o site atual da Solcenter que vocês fizeram?",
-    a: "O site atual (solcenter-site.vercel.app) é a base de trabalho. Vamos otimizá-lo tecnicamente, adicionar tracking completo, criar as LPs faltantes e conectar tudo ao ecossistema de tráfego pago. Não é jogar fora — é potencializar o que já existe.",
+    q: "O site atual da Solcenter entra no escopo?",
+    a: "Sim. O site (solcenter-site.vercel.app) é a base — vamos otimizá-lo, adicionar tracking completo e criar as LPs faltantes. Não é jogar fora, é potencializar.",
   },
   {
-    q: "A verba de tráfego pago está inclusa no R$4.200/mês?",
-    a: "Não. O R$4.200/mês é o valor de gestão, estratégia e criação. O que você investe diretamente no Google Ads, Meta Ads e LinkedIn Ads é separado e fica nas suas contas. Você tem controle total sobre o orçamento de mídia. Recomendamos no mínimo R$2.000/mês de verba para cada frente no início.",
+    q: "A verba de tráfego está inclusa?",
+    a: "Não. O que você investe em Google Ads e Meta Ads é separado e fica nas suas contas. Você tem controle total sobre o orçamento de mídia.",
   },
   {
-    q: "Por que o LinkedIn para Mobilidade e não só Instagram?",
-    a: "Porque o decisor de compra de frota de motos elétricas é um gestor de logística ou diretor financeiro — e esse perfil não toma decisão empresarial no Instagram. No LinkedIn é possível segmentar exatamente por cargo, empresa e setor. Uma campanha bem feita no LinkedIn Ads para gestor de frota converte muito mais do que qualquer campanha genérica no Meta.",
+    q: "Qual a diferença entre o setup e a mensalidade?",
+    a: "O setup (R$2.800) cobre tudo que é construído uma vez: sites, LPs, instalação de tracking e estrutura inicial das campanhas — entregue no mês 1. A mensalidade (R$2.000/mês) cobre a gestão contínua: criação de conteúdo, otimização de campanhas e relatórios mensais.",
   },
   {
-    q: "Quanto tempo leva para ver resultado?",
-    a: "Tráfego pago pode gerar lead na primeira semana após as campanhas ir ao ar. LPs otimizadas aumentam a conversão imediatamente. LinkedIn Ads para B2B tem ciclo um pouco mais longo — o lead é mais qualificado, mas leva mais tempo para chegar. SEO orgânico começa a ranquear em 30 a 60 dias. Por isso o contrato é de 6 meses — para consolidar e escalar, não apenas começar.",
+    q: "Quanto tempo leva para aparecer resultado?",
+    a: "Tráfego pago gera lead na primeira semana após as campanhas ir ao ar. O SEO das LPs começa a ranquear em 30 a 60 dias. Os resultados vão consolidando ao longo dos 6 meses.",
   },
   {
-    q: "Posso contratar só para uma das marcas?",
-    a: "Sim. Temos o Plano Energia + Pro (R$2.500/mês) e o Plano Mobilidade B2B (R$2.500/mês). O Plano Completo é recomendado porque permite integrar as estratégias, economizar na gestão e ter um único ponto de contato para as três frentes. Mas se o momento for de foco em uma frente, começamos por ela.",
-  },
-  {
-    q: "Qual é o próximo passo para fechar?",
-    a: "Fala comigo pelo WhatsApp. Alinhamos as formas de pagamento, assinamos o contrato e começamos na semana seguinte. Sem apresentação de 2 horas, sem proposta número 2. Já temos o diagnóstico, o plano e os entregáveis — falta só o sinal verde.",
+    q: "Qual é o próximo passo?",
+    a: "Fala comigo pelo WhatsApp. Alinhamos a forma de pagamento e começamos na semana seguinte.",
   },
 ];
 
@@ -38,14 +34,11 @@ const FooterSection = () => {
         <div className="section-container">
           <div ref={faqRef} className={`fade-up ${faqVisible ? "visible" : ""}`}>
             <p className="text-center text-sm font-medium tracking-[0.3em] uppercase text-primary mb-3">
-              Dúvidas Comuns
+              Dúvidas
             </p>
-            <h2 className="heading-display text-center text-3xl font-bold sm:text-4xl text-foreground mb-4">
-              Perguntas que você provavelmente já tem
+            <h2 className="heading-display text-center text-3xl font-bold sm:text-4xl text-foreground mb-12">
+              Perguntas frequentes
             </h2>
-            <p className="mx-auto max-w-xl text-center text-muted-foreground mb-12">
-              Respondendo antes de perguntar — porque uma boa proposta não deixa dúvidas no ar.
-            </p>
             <div className="mx-auto max-w-3xl grid gap-3">
               {faqs.map((faq, i) => (
                 <FaqItem key={i} faq={faq} index={i} />
@@ -61,13 +54,9 @@ const FooterSection = () => {
           <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary mb-6">
             Próximo passo
           </p>
-          <h2 className="heading-display mx-auto max-w-3xl text-3xl font-bold sm:text-4xl md:text-5xl text-foreground mb-6 text-balance">
-            Cada mês com a estratégia errada é mais espaço para a concorrência crescer.
+          <h2 className="heading-display mx-auto max-w-2xl text-3xl font-bold sm:text-4xl md:text-5xl text-foreground mb-6 text-balance">
+            Fala comigo e começamos na semana que vem.
           </h2>
-          <p className="mx-auto max-w-xl text-muted-foreground mb-10 text-balance">
-            A proposta é válida por 14 dias. Fale comigo pelo WhatsApp, alinhamos a forma de pagamento
-            e começamos na semana seguinte.
-          </p>
 
           <a
             href="https://wa.me/5554999003163?text=Ol%C3%A1%20Yuri%2C%20vi%20a%20proposta%20da%20Solcenter%20e%20quero%20fechar."

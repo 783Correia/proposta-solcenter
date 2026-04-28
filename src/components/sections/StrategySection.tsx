@@ -4,34 +4,33 @@ import { Globe, MousePointerClick, Megaphone, BarChart3 } from "lucide-react";
 const pillars = [
   {
     icon: Globe,
-    label: "Sites + LPs por Frente",
-    desc: "Infraestrutura separada por marca",
-    detail: "Site Energia+Pro + LPs de conversão + Site/LP Mobilidade B2B focado",
+    label: "Sites + LPs",
+    desc: "Infraestrutura por marca",
+    detail: "Site Energia + LP solar + LP Pro · LP Mobilidade B2B",
   },
   {
     icon: MousePointerClick,
-    label: "Tráfego Segmentado",
-    desc: "Campanhas independentes por audiência",
-    detail: "Google+Meta para Energia · LinkedIn+Google B2B para Mobilidade",
+    label: "Tráfego Pago",
+    desc: "Campanhas por audiência",
+    detail: "Google + Meta para Energia · Google B2B para Mobilidade",
   },
   {
     icon: Megaphone,
-    label: "Conteúdo por Marca",
-    desc: "Editorial diferente para cada público",
-    detail: "3 posts/semana Energia · 2 posts/semana Mobilidade (LinkedIn focado)",
+    label: "Conteúdo",
+    desc: "Editorial por público",
+    detail: "3 posts/semana Energia · 2 posts/semana Mobilidade",
   },
   {
     icon: BarChart3,
-    label: "Analytics Completo",
+    label: "Analytics",
     desc: "Tracking que mostra o que funciona",
-    detail: "GA4 + Meta Pixel + conversões por marca + relatório mensal real",
+    detail: "GA4 + Meta Pixel + conversões por marca + relatório mensal",
   },
 ];
 
 const StrategySection = () => {
   const { ref, isVisible } = useScrollAnimation();
   const { ref: featRef, isVisible: featVisible } = useScrollAnimation(0.1);
-  const { ref: caseRef, isVisible: caseVisible } = useScrollAnimation(0.1);
 
   return (
     <section id="solucao" className="relative py-24 sm:py-32 overflow-hidden">
@@ -47,22 +46,15 @@ const StrategySection = () => {
             <br />
             <span className="neon-text">para cada frente do negócio.</span>
           </h2>
-          <p className="mx-auto max-w-2xl text-center text-lg leading-relaxed text-muted-foreground mb-6">
-            O problema da Solcenter não é produto — é que as três frentes estão sendo geridas como se fossem a mesma coisa.
-            Energia Solar vende economia e sustentabilidade para o consumidor final e PMEs. Mobilidade Elétrica fecha
-            contrato com empresa de logística que quer reduzir custo de frota em escala. São funis completamente diferentes.
-          </p>
           <p className="mx-auto max-w-2xl text-center text-lg leading-relaxed text-muted-foreground mb-16">
-            Em 6 meses você terá{" "}
-            <span className="font-semibold text-foreground">sites que ranqueiam por marca</span>,{" "}
-            <span className="font-semibold text-foreground">campanhas otimizadas por audiência</span>{" "}
-            e conteúdo que converte cada público para a decisão certa.
+            Cada marca com seu próprio site, suas próprias campanhas e seu próprio calendário de conteúdo.
+            Tudo rastreado. Tudo otimizado. Resultados separados por frente.
           </p>
         </div>
 
         <div
           ref={featRef}
-          className={`fade-up grid gap-4 sm:grid-cols-2 lg:grid-cols-4 mb-20 ${featVisible ? "visible" : ""}`}
+          className={`fade-up grid gap-4 sm:grid-cols-2 lg:grid-cols-4 mb-16 ${featVisible ? "visible" : ""}`}
         >
           {pillars.map((p, i) => {
             const Icon = p.icon;
@@ -85,30 +77,27 @@ const StrategySection = () => {
           })}
         </div>
 
-        <div ref={caseRef} className={`fade-up ${caseVisible ? "visible" : ""}`}>
-          <div className="rounded-2xl border border-primary/20 bg-primary/[0.03] p-8 sm:p-12">
-            <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary mb-4">
-              Por que separar as marcas?
-            </p>
-            <h3 className="heading-display text-2xl font-bold text-foreground sm:text-3xl mb-4 text-balance">
-              Mobilidade Elétrica é B2B puro. Energia Solar é B2C e B2B. Misturar os dois dilui os dois.
-            </h3>
-            <p className="text-muted-foreground leading-relaxed max-w-2xl mb-8">
-              A Solcenter Mobilidade vende motos elétricas em volume para empresas — logística, delivery, distribuidoras.
-              O decisor é um gestor de frota ou diretor financeiro que quer ver planilha de TCO (Total Cost of Ownership),
-              incentivos fiscais e casos reais de redução de custo. Ele não está no Instagram assistindo reels.
-              Ele está no LinkedIn e pesquisando no Google com termos técnicos. Uma estratégia B2B separada,
-              com copy específico e presença no LinkedIn, fecha esse gap completamente.
-            </p>
-            <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
+        <div className="rounded-2xl border border-primary/20 bg-primary/[0.03] p-8 sm:p-10">
+          <div className="grid gap-8 sm:grid-cols-2 items-center">
+            <div>
+              <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary mb-3">Solcenter Mobilidade</p>
+              <h3 className="heading-display text-2xl font-bold text-foreground mb-3">
+                B2B puro. Venda em volume para empresas.
+              </h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                O decisor de frota quer saber custo por km, manutenção e prazo de entrega — não reel de Instagram.
+                Campanha Google focada em gestor de logística, LP com argumentos técnicos e formulário direto para proposta comercial.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
               {[
-                { value: "B2B", label: "Mobilidade — venda em volume" },
-                { value: "B2C", label: "Energia — pessoa física e PME" },
-                { value: "2x", label: "mais conversão com LP dedicada" },
-                { value: "TCO", label: "argumento que fecha frota" },
+                { value: "B2B", label: "venda em volume" },
+                { value: "Google", label: "canal principal" },
+                { value: "LP", label: "focada em proposta" },
+                { value: "CPL", label: "rastreado por marca" },
               ].map((stat) => (
-                <div key={stat.label} className="text-center">
-                  <p className="heading-display text-3xl font-bold neon-text">{stat.value}</p>
+                <div key={stat.label} className="text-center p-4 rounded-lg bg-background">
+                  <p className="heading-display text-2xl font-bold neon-text">{stat.value}</p>
                   <p className="text-xs text-muted-foreground mt-1">{stat.label}</p>
                 </div>
               ))}

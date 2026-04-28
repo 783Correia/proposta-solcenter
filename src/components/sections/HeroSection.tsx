@@ -2,7 +2,7 @@ import { ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
   const scrollToContent = () => {
-    document.getElementById("diagnostico")?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById("oportunidade")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -15,35 +15,34 @@ const HeroSection = () => {
         </p>
 
         <h1 className="heading-display text-5xl font-bold leading-[0.95] tracking-tight sm:text-6xl md:text-7xl lg:text-8xl text-foreground">
-          Três marcas.
+          Energia solar.
           <br />
-          Uma estratégia só.
+          Motos elétricas.
         </h1>
 
         <p className="mt-6 heading-display text-3xl font-bold sm:text-4xl md:text-5xl neon-text">
-          Esse é o problema.
+          Dois mercados. Duas estratégias.
         </p>
 
         <p className="mt-8 text-lg text-muted-foreground sm:text-xl max-w-2xl mx-auto leading-relaxed text-balance">
-          Solcenter Energia, Solcenter Mobilidade e Solcenter Pro têm públicos, objetivos e linguagens completamente diferentes.{" "}
+          Solcenter Energia e Solcenter Mobilidade atendem públicos completamente diferentes.{" "}
           <span className="font-semibold text-foreground">
-            A agência atual não sabe disso — e cada real investido prova isso.
-          </span>{" "}
-          Aqui está o plano para mudar nos próximos 6 meses.
+            Sites, tráfego pago e conteúdo pensados para cada frente — separados, rastreados e otimizados.
+          </span>
         </p>
 
         <div className="mt-8 flex items-center justify-center gap-6 text-sm text-muted-foreground flex-wrap">
           <span className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-primary inline-block" />
-            3 frentes de negócio
+            Solcenter Energia + Pro
           </span>
           <span className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-primary inline-block" />
-            Sites + LPs + Tráfego Pago
+            Solcenter Mobilidade B2B
           </span>
           <span className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-primary inline-block" />
-            Conteúdo estratégico por marca
+            Sites · Tráfego · Conteúdo
           </span>
         </div>
 

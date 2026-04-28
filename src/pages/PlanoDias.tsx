@@ -19,62 +19,62 @@ const energiaPosts: WeekBlock[] = [
     theme: "Apresentação + Prova Social",
     posts: [
       "Post 1 — 'Quanto você paga de luz por mês? A gente calcula quanto você economizaria com solar.' (CTA: simulação)",
-      "Post 2 — Case real: cliente X economizou R$Y/mês após instalação (foto do painel + número)",
-      "Post 3 — Reels: 'Mitos sobre energia solar que todo mundo acredita' (desmonta 3 objeções comuns)",
+      "Post 2 — Case real: cliente economizou R$X/mês após instalação (foto do painel + número concreto)",
+      "Post 3 — Reels: 3 mitos sobre energia solar desmontados em 60 segundos",
     ],
-    action: "Publicar Stories com enquete: 'Você já pensou em instalar solar?'",
+    action: "Stories com enquete: 'Você já pensou em instalar solar?' — alimenta audiência para remarketing.",
   },
   {
     week: "Semana 2",
-    theme: "Educação + Objeção de Tempo",
+    theme: "Objeção de Tempo de Retorno",
     posts: [
       "Post 4 — 'Em quanto tempo o sistema solar paga o investimento?' (infográfico com simulação real)",
-      "Post 5 — Processo de instalação: do projeto até o painel ligado (carrossel 5 etapas)",
+      "Post 5 — Processo de instalação do início ao fim (carrossel 5 etapas)",
       "Post 6 — 'Por que a Solcenter Pro garante 25 anos de funcionamento do seu sistema'",
     ],
-    action: "Impulsionar post do case com CTA para simulação.",
+    action: "Impulsionar o post do case (post 2) com CTA direto para a LP de simulação.",
   },
   {
     week: "Semana 3",
     theme: "Técnico + Financiamento",
     posts: [
-      "Post 7 — 'On-grid, off-grid ou híbrido? Qual é o certo para você?' (explicativo simples)",
-      "Post 8 — Financiamento em até 60x: 'Você pode instalar solar e pagar com a própria economia'",
+      "Post 7 — 'On-grid, off-grid ou híbrido? Qual o certo para a sua situação?' (explicativo acessível)",
+      "Post 8 — 'Você pode instalar solar e pagar com a própria economia' — financiamento em até 60x",
       "Post 9 — Bastidores: equipe técnica em campo, instalação real (humaniza a marca)",
     ],
-    action: "Stories: 'Faça uma simulação gratuita em 2 minutos' com link para LP.",
+    action: "Stories: 'Faça uma simulação gratuita em 2 minutos' com link direto para LP.",
   },
   {
     week: "Semana 4",
-    theme: "Autoridade + Urgência",
+    theme: "Autoridade",
     posts: [
-      "Post 10 — '5 perguntas para fazer antes de contratar uma empresa de solar' (posiciona como autoridade)",
-      "Post 11 — Depoimento em vídeo de cliente satisfeito (formato curto, 60 segundos)",
+      "Post 10 — '5 perguntas para fazer antes de contratar empresa de solar' (posiciona como referência)",
+      "Post 11 — Depoimento em vídeo de cliente (formato curto, até 60s)",
       "Post 12 — 'Sua conta de luz vai subir mais este ano. Quem garante que a sua não sobe?'",
     ],
     action: "Remarketing para quem visitou a LP mas não converteu.",
   },
   {
-    week: "Semana 5-6",
-    theme: "Escala e Segmentação",
+    week: "Semana 5 — 6",
+    theme: "B2B + Solcenter Pro",
     posts: [
-      "Post 13 — Foco em solar para empresas/PMEs: 'Sua empresa pode reduzir até 90% da conta de energia'",
-      "Post 14 — Case B2B: empresa economizou R$X/mês (validação para público corporativo)",
+      "Post 13 — 'Sua empresa pode reduzir até 90% da conta de energia com solar' (foco em PMEs)",
+      "Post 14 — Case B2B: empresa X economizou R$Y/mês",
       "Post 15 — Solcenter Pro: 'Manutenção preventiva que garante máxima geração o ano todo'",
-      "Post 16 — 'Março chegou. O que a sua conta de luz vai mostrar em setembro?'",
+      "Post 16 — Pergunta que gera engajamento: 'Qual o maior medo de quem pensa em instalar solar?'",
     ],
-    action: "Analisar quais posts tiveram mais clique no link — replicar o formato.",
+    action: "Analisar quais posts tiveram mais clique no link — replicar o formato no mês seguinte.",
   },
   {
-    week: "Semana 7-8",
-    theme: "Consolidação e Prova",
+    week: "Semana 7 — 8",
+    theme: "Consolidação",
     posts: [
-      "Post 17 — Compilado de resultados: 'X clientes, Y MWh gerados, Z em economia' (dados reais do mês)",
-      "Post 18 — 'Ainda tem dúvida sobre energia solar? A gente responde ao vivo' (Live ou Q&A nos Stories)",
-      "Post 19 — Reels: processo de instalação em timelapse (alto engajamento)",
-      "Post 20 — CTA direto: 'Simulação gratuita. Você vê o retorno antes de assinar qualquer coisa.'",
+      "Post 17 — Compilado: 'X clientes, Y em economia gerada este mês' (dados reais)",
+      "Post 18 — Q&A ao vivo ou caixa de perguntas nos Stories",
+      "Post 19 — Reels: instalação em timelapse (alto engajamento orgânico)",
+      "Post 20 — CTA direto: 'Simulação gratuita — você vê o retorno antes de assinar qualquer coisa.'",
     ],
-    action: "Relatório de performance: qual conteúdo gerou mais cliques no link / simulações.",
+    action: "Relatório 60 dias: qual conteúdo gerou mais simulações e leads.",
   },
 ];
 
@@ -83,109 +83,108 @@ const mobilidadePosts: WeekBlock[] = [
     week: "Semana 1",
     theme: "Posicionamento B2B",
     posts: [
-      "Post LinkedIn 1 — 'Frota de motos elétricas: o que muda na operação de uma empresa de logística?' (artigo técnico)",
-      "Post LinkedIn 2 — Custo de combustível vs. custo de carga elétrica: planilha comparativa",
-      "Post Instagram 3 — 'A sua frota ainda roda a gasolina? Aqui está o custo que você não está calculando'",
+      "Post 1 — 'Frota de motos elétricas: o que muda na operação de uma empresa de logística?' (educativo)",
+      "Post 2 — Custo de combustível vs. custo de carga elétrica: comparativo em R$/km",
+      "Post 3 — Vídeo: moto elétrica em operação real de entrega (prova de conceito)",
     ],
-    action: "Criar Company Page da Solcenter Mobilidade no LinkedIn e otimizar perfil.",
+    action: "Perfil Instagram Mobilidade bem configurado: bio com CTA direto para WhatsApp/proposta.",
   },
   {
     week: "Semana 2",
-    theme: "TCO e ROI Concreto",
+    theme: "Custo e ROI",
     posts: [
-      "Post LinkedIn 4 — 'TCO de frota elétrica vs. convencional: os números que toda empresa precisa ver' (carrossel com dados)",
-      "Post LinkedIn 5 — Manutenção: 'Moto elétrica vs. moto gasolina — custo de manutenção nos primeiros 2 anos'",
-      "Post Instagram 6 — Vídeo curto: moto elétrica em operação real de entrega (prova de conceito)",
+      "Post 4 — Manutenção: custo de moto elétrica vs. moto gasolina nos primeiros 2 anos",
+      "Post 5 — 'Sua frota ainda roda a gasolina? Aqui está o custo que você não está calculando'",
+      "Post 6 — Autonomia: desmontando a principal objeção com dados reais de uso em entrega urbana",
     ],
-    action: "Lançar campanha LinkedIn Ads — segmentada para gestores de frota e logística.",
+    action: "Google Ads B2B no ar — termos como 'comprar motos elétricas empresa', 'frota moto elétrica'.",
   },
   {
     week: "Semana 3",
-    theme: "Objeções de Autonomia",
+    theme: "Objeções Técnicas",
     posts: [
-      "Post LinkedIn 7 — 'A autonomia da moto elétrica é suficiente para operação urbana? Dados reais de uso'",
-      "Post LinkedIn 8 — Incentivos fiscais para frota elétrica: ICMS, IPI e benefícios por estado",
-      "Post Instagram 9 — 'Empresas que migraram para frota elétrica: o que elas dizem agora'",
+      "Post 7 — 'Autonomia suficiente para operação urbana? Dados reais de quem já usa'",
+      "Post 8 — Incentivos fiscais para frota elétrica: IPI, ICMS e benefícios por estado",
+      "Post 9 — Processo de entrega para empresa: da proposta à frota operando",
     ],
-    action: "Remarketing para visitantes da LP Mobilidade no Google e LinkedIn.",
+    action: "Remarketing para visitantes da LP Mobilidade que não preencheram o formulário.",
   },
   {
     week: "Semana 4",
     theme: "Case + Proposta",
     posts: [
-      "Post LinkedIn 10 — Case de empresa parceira: 'Como a [Empresa X] reduziu 40% do custo de frota com motos elétricas'",
-      "Post LinkedIn 11 — FAQ técnico: autonomia, tempo de carga, assistência técnica, garantia",
-      "Post Instagram 12 — 'Compra em volume para sua empresa: condições especiais. Fale com nosso time.'",
+      "Post 10 — Case: empresa parceira que reduziu custo de frota com motos elétricas (com número)",
+      "Post 11 — FAQ técnico: tempo de carga, assistência, garantia, entrega para empresa",
+      "Post 12 — 'Compra em volume para sua empresa: condições especiais. Fala com o nosso time.'",
     ],
-    action: "Ativar formulário de proposta comercial com resposta em até 24h.",
+    action: "Formulário de proposta comercial com resposta prometida em até 24h.",
   },
   {
-    week: "Semana 5-6",
-    theme: "Escala e Parcerias",
+    week: "Semana 5 — 6",
+    theme: "Escala",
     posts: [
-      "Post LinkedIn 13 — 'Frota elétrica como diferencial competitivo: empresa que reduz emissão atrai cliente ESG'",
-      "Post LinkedIn 14 — Processo de entrega para empresa: 'Da proposta à frota operando em X dias'",
-      "Post Instagram 15 — Bastidores: equipe técnica, suporte e processo de entrega (constrói confiança)",
-      "Post LinkedIn 16 — 'Você já calculou quanto sua empresa paga de combustível por mês?' (CTA para calculadora TCO)",
+      "Post 13 — 'Frota elétrica como diferencial: empresa que reduz emissão atrai cliente ESG'",
+      "Post 14 — Tendência: frotas elétricas crescem no Brasil — como se posicionar agora",
+      "Post 15 — Bastidores: suporte técnico, processo de entrega e assistência (constrói confiança)",
+      "Post 16 — 'Quanto sua empresa gasta de combustível por mês?' (CTA para proposta)",
     ],
-    action: "Analisar performance das campanhas LinkedIn — ajustar segmentação por cargo.",
+    action: "Analisar performance do Google Ads B2B — ajustar palavras negativas e lances.",
   },
   {
-    week: "Semana 7-8",
+    week: "Semana 7 — 8",
     theme: "Consolidação B2B",
     posts: [
-      "Post LinkedIn 17 — Tendências 2026: 'Frotas elétricas crescem X% no Brasil — como se posicionar agora'",
-      "Post LinkedIn 18 — Depoimento de gestor de frota parceiro (vídeo ou citação com foto)",
-      "Post Instagram 19 — 'Motos elétricas em grande escala: condições especiais para empresa acima de 10 unidades'",
-      "Post LinkedIn 20 — CTA final: 'Solicite uma proposta para a sua frota. Resposta em 24h.'",
+      "Post 17 — Depoimento de gestor de frota (vídeo ou citação com foto real)",
+      "Post 18 — 'Motos elétricas em escala: condições especiais para empresa acima de 10 unidades'",
+      "Post 19 — Comparativo visual: custo anual frota gasolina vs. frota elétrica",
+      "Post 20 — CTA final: 'Solicite uma proposta. Resposta em 24h.'",
     ],
-    action: "Relatório B2B: leads qualificados gerados, CPL LinkedIn vs. Google.",
+    action: "Relatório B2B: leads qualificados gerados, CPL Google Ads, taxa de conversão da LP.",
   },
 ];
 
 const tecnicoSemanas: { semana: string; acoes: string[] }[] = [
   {
-    semana: "Semana 1-2",
+    semana: "Semana 1 — 2",
     acoes: [
-      "Auditoria das contas Google Ads, Meta e LinkedIn existentes",
-      "Instalação GA4, Meta Pixel, LinkedIn Insight Tag e GTM",
+      "Auditoria das contas Google Ads e Meta existentes",
+      "Instalação de GA4, Meta Pixel e Google Tag Manager",
       "Configuração de rastreamento de conversão por marca",
-      "Reestruturação das campanhas Google Ads Energia (correspondência exata)",
-      "Setup Google Meu Negócio — otimização completa do perfil",
+      "Reestruturação das campanhas Google Ads Energia",
+      "Google Meu Negócio — otimização completa do perfil",
       "Briefing e aprovação do calendário editorial do mês 1",
     ],
   },
   {
-    semana: "Semana 3-4",
+    semana: "Semana 3 — 4",
     acoes: [
       "Go-live LP Energia Solar (foco em simulação/orçamento)",
-      "Go-live LP Solcenter Pro (manutenção e suporte)",
-      "Lançamento das campanhas Meta Ads Energia (lookalike + interesses)",
-      "Lançamento das campanhas LinkedIn Ads Mobilidade (gestor de frota + logística)",
-      "Go-live LP Mobilidade B2B com calculadora TCO",
-      "Primeiros relatórios parciais — impressões e CTR por campanha",
+      "Go-live LP Solcenter Pro",
+      "Go-live LP Mobilidade B2B",
+      "Lançamento Meta Ads Energia (lookalike + interesses)",
+      "Lançamento Google Ads Mobilidade B2B",
+      "Primeiros relatórios parciais — CTR por campanha",
     ],
   },
   {
-    semana: "Semana 5-6",
+    semana: "Semana 5 — 6",
     acoes: [
       "Análise dos primeiros dados de conversão por marca",
       "Ajuste de palavras negativas com base nas buscas reais",
-      "Teste A/B nos criativos (dor vs. ROI vs. autoridade)",
-      "Refinamento da segmentação LinkedIn por setor e porte de empresa",
+      "Teste A/B nos criativos das campanhas",
       "Relatório 30 dias — CPL por marca, CTR, conversões",
-      "Ajuste de lances baseado nos primeiros dados de CPL",
+      "Ajuste de lances com base no CPL real",
+      "Google Meu Negócio — primeiro post mensal",
     ],
   },
   {
-    semana: "Semana 7-8",
+    semana: "Semana 7 — 8",
     acoes: [
       "Escala das campanhas com CPL dentro do target",
-      "Pausagem de palavras e criativos que não convertem",
+      "Pausagem do que não converte",
       "Remarketing avançado para visitantes que não converteram",
-      "Google Meu Negócio — primeiro post mensal integrado",
       "Relatório 60 dias — performance completa por marca",
-      "Planejamento do mês 3 com base nos dados consolidados",
+      "Planejamento do mês 3 com base nos dados",
     ],
   },
 ];
@@ -199,7 +198,6 @@ const PlanoDias = () => {
 
   return (
     <main className="min-h-screen bg-background text-foreground">
-      {/* Nav */}
       <nav className="sticky top-0 z-40 border-b border-border/50 bg-background/80 backdrop-blur-xl">
         <div className="section-container flex items-center justify-between py-4">
           <Link to="/" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
@@ -207,12 +205,11 @@ const PlanoDias = () => {
             Voltar para Proposta
           </Link>
           <Badge variant="default" className="bg-primary/20 text-primary border-primary/30 text-xs font-semibold">
-            Bonus — Plano de Acao 60 Dias
+            Bonus — Plano 60 Dias
           </Badge>
         </div>
       </nav>
 
-      {/* Header */}
       <section className="py-16 sm:py-20 gradient-hero">
         <div className="section-container">
           <div ref={header.ref} className={`fade-up text-center ${header.isVisible ? "visible" : ""}`}>
@@ -222,24 +219,23 @@ const PlanoDias = () => {
             <h1 className="heading-display text-3xl font-bold sm:text-4xl md:text-5xl text-foreground mb-4">
               Plano de Acao <span className="neon-text">60 Dias</span>
             </h1>
-            <p className="mx-auto max-w-2xl text-muted-foreground text-lg leading-relaxed">
-              O que fazer nos próximos 60 dias — com ou sem contrato.
-              Aqui está a estratégia de conteúdo, ações técnicas e o calendário separado por marca.
+            <p className="mx-auto max-w-xl text-muted-foreground leading-relaxed">
+              Calendário de conteúdo, ações técnicas e campanhas — separados por marca.
+              Com ou sem contrato, isso já é o caminho.
             </p>
           </div>
         </div>
       </section>
 
-      {/* KPIs */}
       <section className="py-8 border-b border-border">
         <div className="section-container">
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
             {[
               { icon: Sun, label: "Energia", value: "20 posts/60d" },
               { icon: Zap, label: "Mobilidade", value: "20 posts/60d" },
-              { icon: Target, label: "Campanhas", value: "4 ativas" },
+              { icon: Target, label: "Campanhas", value: "3 ativas" },
               { icon: CalendarDays, label: "Semanas", value: "8 planejadas" },
-              { icon: TrendingUp, label: "LPs Live", value: "Semana 3-4" },
+              { icon: TrendingUp, label: "LPs live", value: "Semana 3-4" },
               { icon: Users, label: "Audiências", value: "B2C + B2B" },
             ].map(({ icon: Icon, label, value }) => (
               <div key={label} className="glass-card flex items-center gap-3 p-4">
@@ -256,19 +252,18 @@ const PlanoDias = () => {
         </div>
       </section>
 
-      {/* Tabs */}
       <section className="py-12">
         <div className="section-container">
-          <div className="flex gap-2 mb-10 border-b border-border">
+          <div className="flex gap-1 mb-10 border-b border-border overflow-x-auto">
             {([
-              { id: "energia", label: "Solcenter Energia + Pro", emoji: "☀️" },
-              { id: "mobilidade", label: "Solcenter Mobilidade B2B", emoji: "⚡" },
-              { id: "tecnico", label: "Ações Técnicas", emoji: "⚙️" },
+              { id: "energia", label: "Energia + Pro", emoji: "☀️" },
+              { id: "mobilidade", label: "Mobilidade B2B", emoji: "⚡" },
+              { id: "tecnico", label: "Acoes Tecnicas", emoji: "⚙️" },
             ] as { id: Tab; label: string; emoji: string }[]).map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`pb-3 px-1 text-sm font-semibold border-b-2 transition-colors ${
+                className={`pb-3 px-3 text-sm font-semibold border-b-2 transition-colors whitespace-nowrap ${
                   activeTab === tab.id
                     ? "border-primary text-primary"
                     : "border-transparent text-muted-foreground hover:text-foreground"
@@ -282,29 +277,28 @@ const PlanoDias = () => {
 
           <div ref={body.ref} className={`fade-up ${body.isVisible ? "visible" : ""}`}>
             {activeTab !== "tecnico" ? (
-              <div className="space-y-6">
-                {/* Audience banner */}
-                <div className={`rounded-xl p-5 border ${activeTab === "energia" ? "border-orange-200 bg-orange-50" : "border-blue-200 bg-blue-50"}`}>
-                  <p className={`text-sm font-bold mb-1 ${activeTab === "energia" ? "text-orange-700" : "text-blue-700"}`}>
-                    {activeTab === "energia" ? "PÚBLICO: Pessoa física e PME — quem quer reduzir conta de luz" : "PÚBLICO: Empresas — gestor de frota / diretor financeiro / logística"}
+              <div className="space-y-5">
+                <div className={`rounded-xl p-5 border ${activeTab === "energia" ? "border-orange-200 bg-orange-50" : "border-slate-200 bg-slate-50"}`}>
+                  <p className={`text-sm font-bold mb-1 ${activeTab === "energia" ? "text-orange-700" : "text-slate-700"}`}>
+                    {activeTab === "energia" ? "Público: pessoa física e PME — quem quer reduzir conta de luz" : "Público: empresa — gestor de frota / diretor financeiro / logística"}
                   </p>
-                  <p className={`text-xs leading-relaxed ${activeTab === "energia" ? "text-orange-600" : "text-blue-600"}`}>
+                  <p className={`text-xs leading-relaxed ${activeTab === "energia" ? "text-orange-600" : "text-slate-500"}`}>
                     {activeTab === "energia"
-                      ? "Canal principal: Instagram + Facebook. Linguagem: acessível, orientada a economia em R$, com prova social e objeções respondidas."
-                      : "Canal principal: LinkedIn. Linguagem: técnica, orientada a dados de TCO, ROI e redução de custo operacional. Instagram como apoio de prova social."}
+                      ? "Canal principal: Instagram + Facebook. Linguagem acessível, orientada a economia em R$ e prova social."
+                      : "Canal principal: Google Ads B2B + Instagram. Linguagem orientada a custo operacional e redução de frota."}
                   </p>
                 </div>
 
                 {currentPosts.map((block, i) => (
-                  <WeekCard key={block.week} block={block} index={i} brand={activeTab} />
+                  <WeekCard key={block.week} block={block} index={i} brand={activeTab as "energia" | "mobilidade"} />
                 ))}
               </div>
             ) : (
-              <div className="space-y-6">
-                <div className="rounded-xl p-5 border border-primary/20 bg-primary/[0.03] mb-8">
-                  <p className="text-sm font-bold text-primary mb-1">EXECUÇÃO TÉCNICA — paralela ao conteúdo</p>
+              <div className="space-y-5">
+                <div className="rounded-xl p-5 border border-primary/20 bg-primary/[0.03] mb-6">
+                  <p className="text-sm font-bold text-primary mb-1">Execucao tecnica — em paralelo ao conteudo</p>
                   <p className="text-xs text-muted-foreground leading-relaxed">
-                    Estas ações acontecem em paralelo com a produção de conteúdo. São os itens que fazem o conteúdo e o tráfego funcionarem de verdade — tracking, LPs, campanhas e relatórios.
+                    Estes itens acontecem em paralelo com a producao de conteudo. Sao eles que fazem o trafego e o conteudo funcionarem com tracking real.
                   </p>
                 </div>
                 {tecnicoSemanas.map((s, i) => (
@@ -316,35 +310,25 @@ const PlanoDias = () => {
         </div>
       </section>
 
-      {/* CTA final */}
       <section className="relative py-24 sm:py-32 overflow-hidden border-t border-border">
         <div className="pointer-events-none absolute inset-0 gradient-radial" />
         <div className="section-container relative z-10 text-center">
-          <p className="text-sm font-medium tracking-[0.3em] uppercase text-primary mb-4">Próximo passo</p>
-          <h2 className="heading-display mx-auto max-w-3xl text-3xl font-bold sm:text-4xl text-foreground mb-6 text-balance">
-            Você tem o plano.{" "}
+          <h2 className="heading-display mx-auto max-w-2xl text-3xl font-bold sm:text-4xl text-foreground mb-6 text-balance">
+            Voce tem o plano.{" "}
             <span className="neon-text">A gente executa junto.</span>
           </h2>
-          <p className="mx-auto max-w-xl text-muted-foreground mb-10">
-            Este plano funciona sozinho — mas funciona melhor com gestão profissional, tracking real e otimização contínua.
-            Fala comigo e começamos na semana que vem.
-          </p>
-
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://wa.me/5554999003163?text=Ol%C3%A1%20Yuri%2C%20vi%20o%20plano%2060%20dias%20da%20Solcenter%20e%20quero%20fechar."
+              href="https://wa.me/5554999003163?text=Ol%C3%A1%20Yuri%2C%20vi%20o%20plano%2060%20dias%20e%20quero%20fechar."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 rounded-full bg-primary px-8 py-4 text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90 hover:shadow-[0_4px_20px_hsl(28_90%_48%/0.3)]"
             >
               <MessageCircle className="h-4 w-4" />
-              Fechar com Yuri no WhatsApp
+              Fechar com Yuri
               <ArrowRight className="h-4 w-4" />
             </a>
-            <Link
-              to="/"
-              className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
+            <Link to="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2">
               <ArrowLeft className="h-4 w-4" />
               Voltar para a Proposta
             </Link>
@@ -368,7 +352,7 @@ const WeekCard = ({ block, index, brand }: WeekCardProps) => {
     <div
       ref={ref}
       className={`fade-up glass-card p-6 sm:p-8 ${isVisible ? "visible" : ""}`}
-      style={{ transitionDelay: `${index * 80}ms` }}
+      style={{ transitionDelay: `${index * 60}ms` }}
     >
       <div className="flex flex-wrap items-center gap-3 mb-4">
         <span className="text-xs font-bold tracking-[0.15em] uppercase bg-primary/10 text-primary px-3 py-1 rounded-full">
@@ -380,7 +364,7 @@ const WeekCard = ({ block, index, brand }: WeekCardProps) => {
       <div className="space-y-3 mb-4">
         {block.posts.map((post, i) => (
           <div key={i} className="flex items-start gap-3">
-            <span className={`mt-0.5 shrink-0 text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center text-white ${brand === "energia" ? "bg-orange-500" : "bg-blue-600"}`}>
+            <span className={`mt-0.5 shrink-0 text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center text-white ${brand === "energia" ? "bg-orange-500" : "bg-slate-600"}`}>
               {i + 1}
             </span>
             <p className="text-sm text-muted-foreground leading-relaxed">{post}</p>
@@ -410,7 +394,7 @@ const TecnicoCard = ({ semana, index }: TecnicoCardProps) => {
     <div
       ref={ref}
       className={`fade-up glass-card p-6 sm:p-8 ${isVisible ? "visible" : ""}`}
-      style={{ transitionDelay: `${index * 80}ms` }}
+      style={{ transitionDelay: `${index * 60}ms` }}
     >
       <span className="text-xs font-bold tracking-[0.15em] uppercase bg-primary/10 text-primary px-3 py-1 rounded-full mb-4 inline-block">
         {semana.semana}
