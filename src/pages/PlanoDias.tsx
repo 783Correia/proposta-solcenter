@@ -319,7 +319,7 @@ const PlanoDias = () => {
           </h2>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://wa.me/5554999003163?text=Ol%C3%A1%20Yuri%2C%20vi%20o%20plano%2060%20dias%20e%20quero%20fechar."
+              href="https://wa.me/5554996865236?text=Ol%C3%A1%20Yuri%2C%20vi%20o%20plano%2060%20dias%20e%20quero%20fechar."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 rounded-full bg-primary px-8 py-4 text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90 hover:shadow-[0_4px_20px_hsl(28_90%_48%/0.3)]"
